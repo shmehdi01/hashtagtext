@@ -1,8 +1,11 @@
-## HashTagText
+# HashTagText
 
 HashTagText will detect all hash tags in string.
 
-# Example
+        dependencies:
+          hashtagtext: ^0.0.1
+
+## Example
 
         HashTagText(
               text: "I will found and #highlight all #tag and #make it #clickable",
@@ -11,7 +14,7 @@ HashTagText will detect all hash tags in string.
                      },)
 
 
-# Example 2 Customize HashTag color and normal text color Or Texstyle
+## Example 2 Customize HashTag color and normal text color Or Texstyle
 
        HashTagText(
                    text: "I will found and #highlight all #tag and #make it #clickable",
@@ -22,4 +25,4 @@ HashTagText will detect all hash tags in string.
                  },)
 
 
-![](sc.jpeg)
+![](sc.png)
